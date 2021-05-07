@@ -28,6 +28,7 @@ window.onload = function () {
   function addTask() {
     const task = document.createElement('li');
     task.innerHTML = getTaskInput.value;
+    task.classList.add('task');
     getToDoList.appendChild(task);
     getTaskInput.value = '';
   }
