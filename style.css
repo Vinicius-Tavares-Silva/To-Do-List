@@ -1,3 +1,22 @@
+body{
+ background-color:indigo;
+ color: white;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+ font-size: xx-large;
+ font-weight: bold;
+}
+
+#criar-tarefa{
+ border-radius: 10%;
+  padding: 5px;
+  margin: auto;
+  background-color:forestgreen;
+  color: white;
+}
+
 .selected {
   font-weight: bold;
 }
@@ -16,11 +35,15 @@
   display: inline-block;
   min-height: 80px;
   min-width: 100px;
-  text-align: center;
+  text-align:center;
   font-family: 'Courier New', Courier, monospace;
+  color: black;
 }
 
 .buttons {
-  border-radius: 60%;
+  border-radius: 10%;
   padding: 10px;
+  margin: auto;
+  background-color: orange;
+  color: black;
 }
