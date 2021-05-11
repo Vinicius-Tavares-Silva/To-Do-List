@@ -1,19 +1,24 @@
-body{
- background-color:indigo;
- color: white;
- font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {
+  background-color: indigo;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-header{
- font-size: xx-large;
- font-weight: bold;
+header {
+  font-size: xx-large;
+  font-weight: bold;
 }
 
-#criar-tarefa{
- border-radius: 10%;
+#texto-tarefa {
+  border-radius: 8%;
+  padding: 3px;
+}
+
+#criar-tarefa {
+  border-radius: 10%;
   padding: 5px;
   margin: auto;
-  background-color:forestgreen;
+  background-color: forestgreen;
   color: white;
 }
 
@@ -26,8 +31,8 @@ header{
 }
 
 .task {
- background-color: #FFFFA5;
-  line-height: 25px;
+  background-color: #ffffa5;
+  line-height: 80px;
   margin: 5px;
   padding: 10px;
   box-shadow: 0 1px 2px rgb(0 0 0 / 6%), 0 1px 3px rgb(0 0 0 / 10%);
@@ -35,9 +40,10 @@ header{
   display: inline-block;
   min-height: 80px;
   min-width: 100px;
-  text-align:center;
-  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
   color: black;
+  font-size: large;
 }
 
 .buttons {
