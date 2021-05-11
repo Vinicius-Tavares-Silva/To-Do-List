@@ -1,0 +1,55 @@
+body {
+  background-color: indigo;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#texto-tarefa {
+  border-radius: 8%;
+  padding: 3px;
+}
+
+#criar-tarefa {
+  border-radius: 10%;
+  padding: 5px;
+  margin: auto;
+  background-color: forestgreen;
+  color: white;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.task {
+  background-color: #ffffa5;
+  line-height: 80px;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 6%), 0 1px 3px rgb(0 0 0 / 10%);
+  border-radius: 6%;
+  display: inline-block;
+  min-height: 80px;
+  min-width: 100px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  font-size: large;
+}
+
+.buttons {
+  border-radius: 10%;
+  padding: 10px;
+  margin: auto;
+  background-color: orange;
+  color: black;
+}
